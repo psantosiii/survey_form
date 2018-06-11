@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Counter</title>
+        <link rel="stylesheet" href="/index.css">
+    </head>
+    <body>
+            <h1>Counter</h1>
+            <h3><%= visitCount %> times</h3>
+            <form action="/two" method="get">
+                <input type="submit" value="add2">
+            </form>
+            <form action="/reset" method="GET">
+                <input type="submit" value="Reset">
+            </form>      
+    </body>
+</html>
